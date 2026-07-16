@@ -1,7 +1,8 @@
-package com.espe.pedidos.repository.service;
+package com.espe.pedidos.service;
 
 import com.espe.pedidos.repository.model.Pedido;
 import com.espe.pedidos.repository.repository.PedidoRepository;
+import com.espe.pedidos.repository.service.PedidoService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

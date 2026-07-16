@@ -1,5 +1,6 @@
 package com.espe.pedidos.controller;
 
+import com.espe.pedidos.repository.controller.PedidoController;
 import com.espe.pedidos.repository.model.Pedido;
 import com.espe.pedidos.repository.service.PedidoService;
 import org.junit.jupiter.api.Test;
