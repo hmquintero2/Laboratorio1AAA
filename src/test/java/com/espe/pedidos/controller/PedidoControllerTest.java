@@ -1,4 +1,4 @@
-package com.espe.pedidos.repository.controller;
+package com.espe.pedidos.controller;
 
 import com.espe.pedidos.repository.model.Pedido;
 import com.espe.pedidos.repository.service.PedidoService;

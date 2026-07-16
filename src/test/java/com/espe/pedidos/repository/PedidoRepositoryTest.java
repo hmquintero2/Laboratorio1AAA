@@ -1,6 +1,7 @@
-package com.espe.pedidos.repository.repository;
+package com.espe.pedidos.repository;
 
 import com.espe.pedidos.repository.model.Pedido;
+import com.espe.pedidos.repository.repository.PedidoRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.data.jpa.test.autoconfigure.DataJpaTest;
