@@ -6,7 +6,6 @@ import com.espe.pedidos.repository.repository.PedidoRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-
 @Service
 public class PedidoService {
 
@@ -18,5 +17,9 @@ public class PedidoService {
 
     public List<Pedido> obtenerPorEstado(String estado) {
         return pedidoRepository.findByEstado(estado);
+    }
+
+    public Pedido crearPedido(Pedido pedido) {
+        return pedidoRepository.save(pedido);
     }
 }
