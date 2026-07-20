@@ -1,8 +1,8 @@
-package com.espe.pedidos.repository.service;
+package com.espe.pedidos.service;
 
 
-import com.espe.pedidos.repository.model.Pedido;
-import com.espe.pedidos.repository.repository.PedidoRepository;
+import com.espe.pedidos.model.Pedido;
+import com.espe.pedidos.repository.PedidoRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -1,7 +1,7 @@
-package com.espe.pedidos.repository.controller;
+package com.espe.pedidos.controller;
 
-import com.espe.pedidos.repository.model.Pedido;
-import com.espe.pedidos.repository.service.PedidoService;
+import com.espe.pedidos.model.Pedido;
+import com.espe.pedidos.service.PedidoService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

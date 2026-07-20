@@ -1,8 +1,8 @@
 package com.espe.pedidos.controller;
 
-import com.espe.pedidos.repository.controller.PedidoController;
-import com.espe.pedidos.repository.model.Pedido;
-import com.espe.pedidos.repository.service.PedidoService;
+import com.espe.pedidos.controller.PedidoController;
+import com.espe.pedidos.model.Pedido;
+import com.espe.pedidos.service.PedidoService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.webmvc.test.autoconfigure.WebMvcTest;

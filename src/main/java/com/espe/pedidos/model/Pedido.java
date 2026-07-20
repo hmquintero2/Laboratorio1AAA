@@ -1,4 +1,4 @@
-package com.espe.pedidos.repository.model;
+package com.espe.pedidos.model;
 
 
 import jakarta.persistence.Entity;

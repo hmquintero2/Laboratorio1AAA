@@ -1,6 +1,6 @@
-package com.espe.pedidos.repository.repository;
+package com.espe.pedidos.repository;
 
-import com.espe.pedidos.repository.model.Pedido;
+import com.espe.pedidos.model.Pedido;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

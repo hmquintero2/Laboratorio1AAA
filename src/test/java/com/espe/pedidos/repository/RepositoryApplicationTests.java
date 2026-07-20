@@ -1,4 +1,4 @@
-package com.espe.pedidos;
+package com.espe.pedidos.repository;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
